@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Frontend</title>
+        <link href="css/index.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="table">
+            <table border="3px">
+                <thead style="background: #fc0">
+                    <tr>
+                        <td>ID</td>
+                        <td>Имя</td>
+                        <td>Возраст</td>
+                        <td>Телефон</td>
+                        <td>Действия</td>
+                    </tr>
+                </thead>
+                <tbody id="guides-list"></tbody>
+            </table>
+        </div>
+        <form id="form">
+            <div class="create-box">
+                <label>
+                    Имя:
+                    <input id="name" type="text" required placeholder="Иван" />
+                </label>
+                <label>
+                    Возраст:
+                    <input id="age" type="number" required placeholder="17" />
+                </label>
+                <label>
+                    Телефон:
+                    <input id="phone" type="number" required placeholder="89301186585" />
+                </label>
+                <input type="submit" value="Создать" />
+            </div>
+        </form>
+        <script src="js/index.js" type="application/javascript"></script>
+    </body>
+</html>

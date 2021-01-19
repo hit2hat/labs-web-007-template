@@ -1,0 +1,10 @@
+.create-box {
+    max-width: 300px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-box > input[type="submit"] {
+    margin-top: 10px;
+}
